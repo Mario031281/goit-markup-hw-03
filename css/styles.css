@@ -43,8 +43,6 @@ button {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.04em;
 }
 
@@ -62,13 +60,11 @@ button {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	margin-bottom: 16px;
-	/* padding-top: 32px; */
 }
 .text {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	/* padding-bottom: 32px; */
 }
 .visually-hidden {
 	position: absolute;
@@ -87,7 +83,7 @@ button {
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 /* ================header================ */
 .page-header-container {
@@ -96,8 +92,9 @@ button {
 	justify-content: space-between;
 }
 .header {
-	/* padding-top: 24px;
-	padding-bottom: 24px; */
+}
+.studio-header {
+	border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
 	display: flex;
@@ -115,7 +112,6 @@ button {
 	text-transform: uppercase;
 	color: #4d5ae5;
 	margin-right: 76px;
-	/* padding-left: 156px; */
 }
 .logo-studio {
 	color: #2e2f42;
@@ -142,14 +138,11 @@ button {
 .address {
 }
 .address-list {
-	/* display: block;
-	margin: auto; */
 	display: flex;
 	align-items: center;
 	padding: 24px 0;
 }
 .address-item {
-	margin-right: 40px;
 }
 .address-mail {
 	font-style: normal;
@@ -158,6 +151,7 @@ button {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
+	margin-right: 40px;
 }
 .address-mail:hover,
 .address-mail:focus {
@@ -183,6 +177,12 @@ button {
 	padding-bottom: 188px;
 	padding-top: 188px;
 }
+.hero-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* gap: 48; */
+}
 .hero-title {
 	font-weight: 700;
 	font-size: 56px;
@@ -191,30 +191,44 @@ button {
 	letter-spacing: 0.02em;
 	color: var(--main-title-color);
 	width: 496px;
-	margin: auto;
 	margin-bottom: 48px;
-	/* padding-top: 188px; */
 }
 .hero-btn {
 	color: #ffffff;
 	background-color: #4d5ae5;
 	display: block;
 	margin: auto;
-	/* padding-bottom: 188px; */
+	padding: 16px 32px;
+	background: #4d5ae5;
+	border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
 	background-color: var(--accent-color);
 }
+.btn-container {
+	padding-top: 96px;
+}
 
 .main-hero-btn {
 	color: #4d5ae5;
 	background-color: #f4f4fd;
+	padding: 12px 24px;
+	text-align: center;
+	background: #f4f4fd;
+	border: 1px solid #e7e9fc;
+	border-radius: 4px;
 }
 .main-hero-btn:hover,
 .main-hero-btn:focus {
 	color: #fff;
 	background-color: var(--accent-color);
+}
+.btn-list {
+	display: flex;
+	gap: 24px;
+	margin-bottom: 72px;
+	justify-content: center;
 }
 
 /* ================descr================ */
@@ -228,7 +242,24 @@ button {
 	display: flex;
 	align-items: center;
 	gap: 24px;
+}
+.descr-item {
 	flex-basis: calc((100%-72px) / 4);
+}
+.descr-list-studio {
+	flex-wrap: wrap;
+	column-gap: 24px;
+	padding-bottom: 120px;
+}
+.descr-item-studio {
+	text-align: center;
+}
+.descr-container {
+	padding: 32px 16px;
+	text-align: start;
+	border-bottom: 1px solid #e7e9fc;
+	/* border-left: 1px solid #e7e9fc;
+	border-right: 1px solid #e7e9fc; */
 }
 .descr-subtitle {
 	color: var(--secondary-title-color);
@@ -253,7 +284,6 @@ button {
 /* ================team================ */
 .our-team {
 	background-color: #f4f4fd;
-	/* padding-bottom: 120px; */
 }
 .team-title {
 	color: var(--secondary-title-color);
@@ -270,8 +300,6 @@ button {
 	margin: auto;
 }
 .bottext {
-	/* display: flex;
-	flex-wrap: wrap; */
 	padding: 32px 16px;
 	text-align: center;
 }
@@ -284,6 +312,8 @@ button {
 .footer {
 	background-color: var(--main-background-color);
 	border-bottom: 1px solid #2e2f42;
+}
+.footer-descr {
 }
 .footer-logo {
 	line-height: 1.17;
