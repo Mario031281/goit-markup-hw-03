@@ -95,6 +95,7 @@ button {
 }
 .studio-header {
 	border-bottom: 1px solid #e7e9fc;
+	padding-bottom: 96px;
 }
 .header-navigation {
 	display: flex;
@@ -207,8 +208,11 @@ button {
 .hero-btn:focus {
 	background-color: var(--accent-color);
 }
+.hero-studio {
+	padding-bottom: 120px;
+}
 .btn-container {
-	padding-top: 96px;
+	/* padding-top: 96px; */
 }
 
 .main-hero-btn {
@@ -250,13 +254,13 @@ button {
 .descr-list-studio {
 	flex-wrap: wrap;
 	column-gap: 24px;
-	padding-bottom: 120px;
+	/* padding-bottom: 120px; */
 }
 .descr-item-studio {
 	text-align: center;
 }
 .descr-container {
-	padding: 32px 16px;
+	padding-left: 16px;
 	text-align: start;
 	border-bottom: 1px solid #e7e9fc;
 	border-left: 1px solid #e7e9fc;
@@ -264,9 +268,12 @@ button {
 }
 .descr-subtitle {
 	color: var(--secondary-title-color);
+	margin-top: 32px;
+	margin-bottom: 8px;
 }
 .descr-text {
 	color: #434455;
+	margin-bottom: 32px;
 }
 /* ================work================ */
 .my-work {
@@ -286,6 +293,7 @@ button {
 .our-team {
 	background-color: #f4f4fd;
 	padding-top: 120px;
+	padding-bottom: 120px;
 }
 .team-title {
 	color: var(--secondary-title-color);
@@ -301,11 +309,14 @@ button {
 	margin: auto;
 }
 .bottext {
-	padding: 32px 16px;
+	/* padding: 32px 16px; */
 	text-align: center;
+	background-color: #fff;
 }
 .team-subtitle {
 	color: var(--secondary-title-color);
+	margin-top: 32px;
+	margin-bottom: 8px;
 }
 .team-text {
 }
