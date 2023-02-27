@@ -59,7 +59,7 @@ button {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	margin-bottom: 16px;
+	margin-bottom: 8px;
 }
 .text {
 	font-size: 16px;
@@ -91,11 +91,14 @@ button {
 	align-items: center;
 	justify-content: space-between;
 }
+.portfolio {
+	padding-bottom: 96px;
+}
 .header {
 }
+
 .studio-header {
 	border-bottom: 1px solid #e7e9fc;
-	padding-bottom: 96px;
 }
 .header-navigation {
 	display: flex;
@@ -107,11 +110,13 @@ button {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.33;
-	display: flex;
+	/* display: flex; */
 	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #4d5ae5;
+}
+.logo-hed {
 	margin-right: 76px;
 }
 .logo-studio {
@@ -260,20 +265,19 @@ button {
 	text-align: center;
 }
 .descr-container {
-	padding-left: 16px;
+	/* padding-left: 16px; */
 	text-align: start;
 	border-bottom: 1px solid #e7e9fc;
 	border-left: 1px solid #e7e9fc;
 	border-right: 1px solid #e7e9fc;
+	padding: 32px 16px;
 }
 .descr-subtitle {
 	color: var(--secondary-title-color);
-	margin-top: 32px;
-	margin-bottom: 8px;
+	/* margin-bottom: 8px; */
 }
 .descr-text {
 	color: #434455;
-	margin-bottom: 32px;
 }
 /* ================work================ */
 .my-work {
@@ -309,13 +313,13 @@ button {
 	margin: auto;
 }
 .bottext {
-	/* padding: 32px 16px; */
+	padding: 32px 16px;
 	text-align: center;
 	background-color: #fff;
 }
 .team-subtitle {
 	color: var(--secondary-title-color);
-	margin-top: 32px;
+	/* margin-top: 32px; */
 	margin-bottom: 8px;
 }
 .team-text {
@@ -324,10 +328,10 @@ button {
 .footer {
 	background-color: var(--main-background-color);
 	border-bottom: 1px solid #2e2f42;
-}
-.footer-descr {
 	padding-top: 100px;
 	padding-bottom: 100px;
+}
+.footer-descr {
 }
 .footer-logo {
 	line-height: 1.17;
