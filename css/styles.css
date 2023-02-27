@@ -91,9 +91,6 @@ button {
 	align-items: center;
 	justify-content: space-between;
 }
-.portfolio {
-	padding-bottom: 96px;
-}
 .header {
 }
 
@@ -213,7 +210,8 @@ button {
 .hero-btn:focus {
 	background-color: var(--accent-color);
 }
-.hero-studio {
+.portfolio {
+	padding-top: 96px;
 	padding-bottom: 120px;
 }
 .btn-container {
@@ -239,6 +237,7 @@ button {
 	gap: 24px;
 	margin-bottom: 72px;
 	justify-content: center;
+	align-items: center;
 }
 
 /* ================descr================ */
@@ -258,6 +257,7 @@ button {
 }
 .descr-list-studio {
 	flex-wrap: wrap;
+	row-gap: 48px;
 	column-gap: 24px;
 	/* padding-bottom: 120px; */
 }
